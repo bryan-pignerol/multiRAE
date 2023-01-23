@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Planification mini-projet sécurité civile" company="" webLink="http://" view-date="2023-01-30" view-index="1" gantt-divider-location="428" resource-divider-location="386" version="2.8.11" locale="fr_FR">
+    <description/>
+    <view zooming-state="default:6" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="180" order="0"/>
+        <field id="tpd4" name="Date de début" width="70" order="1"/>
+        <field id="tpd5" name="Date de fin" width="63" order="2"/>
+        <field id="tpd13" name="Ressources" width="111" order="3"/>
+        <timeline><![CDATA[122,29,148]]></timeline>
+        <option id="color.recent"><![CDATA[#00cccc #f4f4f4 #009933 #ff9900 #cc0000 #ff0033 #ff0099 #999900 #6666ff #cc6600]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="260" order="0"/>
+        <field id="1" name="Rôle par défaut" width="122" order="1"/>
+    </view>
+    <!-- -->
+    <calendars base-id="Aucun">
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="false"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+        <date year="2023" month="2" date="6" type="NEUTRAL" color="#ff9900"><![CDATA[CCF]]></date>
+        <date year="2023" month="2" date="9" type="NEUTRAL" color="#ff9900"/>
+        <date year="2023" month="2" date="14" type="HOLIDAY"/>
+        <date year="2023" month="2" date="15" type="HOLIDAY"/>
+        <date year="2023" month="2" date="16" type="HOLIDAY"/>
+        <date year="2023" month="2" date="17" type="HOLIDAY"/>
+        <date year="2023" month="2" date="20" type="HOLIDAY"/>
+        <date year="2023" month="2" date="21" type="HOLIDAY"/>
+        <date year="2023" month="2" date="22" type="HOLIDAY"/>
+        <date year="2023" month="2" date="23" type="HOLIDAY"/>
+        <date year="2023" month="2" date="24" type="HOLIDAY"/>
+        <date year="2023" month="1" date="16" type="HOLIDAY" color="#009933"><![CDATA[Sortie à Brignoles]]></date>
+        <date year="2023" month="2" date="13" type="HOLIDAY"/>
+        <date year="2023" month="4" date="10" type="HOLIDAY"/>
+        <date year="2023" month="5" date="1" type="HOLIDAY"/>
+        <date year="2023" month="4" date="17" type="HOLIDAY"/>
+        <date year="2023" month="4" date="18" type="HOLIDAY"/>
+        <date year="2023" month="4" date="19" type="HOLIDAY"/>
+        <date year="2023" month="4" date="20" type="HOLIDAY"/>
+        <date year="2023" month="4" date="21" type="HOLIDAY"/>
+        <date year="2023" month="4" date="24" type="HOLIDAY"/>
+        <date year="2023" month="4" date="25" type="HOLIDAY"/>
+        <date year="2023" month="4" date="26" type="HOLIDAY"/>
+        <date year="2023" month="4" date="27" type="HOLIDAY"/>
+        <date year="2023" month="4" date="28" type="HOLIDAY"/>
+        <date year="2023" month="5" date="8" type="HOLIDAY"/>
+        <date year="2023" month="5" date="30" type="HOLIDAY" color="#00cccc"><![CDATA[Stage]]></date>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" name="Analyse du cahier des charges" color="#00cccc" meeting="false" start="2023-01-23" duration="4" complete="0" thirdDate="2021-12-27" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Lecture attentive de la description SysMl du projet]]></notes>
+            <depend id="148" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" name="Planification" color="#000000" meeting="false" start="2023-01-23" duration="4" complete="0" thirdDate="2021-12-27" thirdDate-constraint="0" expand="true">
+            <task id="13" name="Répartition des tâches" color="#00cccc" meeting="false" start="2023-01-23" duration="4" complete="0" thirdDate="2021-12-27" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[La répartition découle d'une concertation entre membres de l'équipe.
+Compléter le Gantt dans GanttProject :
+ - faire apparaître la répartition des tâches pour chaque étudiant en complétant le champ ressource
+ - remplaçer le nom de la ressource par le nom de chaque équipier dans le "Diagramme des ressources".
+Vous pouvez créer de nouvelle tâches si besoin.
+Compléter le "diagramme de définition de blocs" en affectant un nom à chaque bloc.]]></notes>
+                <depend id="148" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="148" name="Validation répartition" color="#00cccc" meeting="true" start="2023-01-27" duration="0" complete="0" thirdDate="2021-12-27" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Validation de la répartition par le professeur]]></notes>
+                <depend id="16" type="2" difference="0" hardness="Strong"/>
+                <depend id="19" type="2" difference="0" hardness="Strong"/>
+                <depend id="27" type="2" difference="0" hardness="Strong"/>
+                <depend id="40" type="2" difference="0" hardness="Strong"/>
+                <depend id="45" type="2" difference="0" hardness="Strong"/>
+                <depend id="137" type="2" difference="0" hardness="Strong"/>
+                <depend id="140" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="16" name="Conception" color="#000000" meeting="false" start="2023-01-27" duration="31" complete="0" thirdDate="2021-11-22" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Ensemble des tâches qui visent à élaborer l'ensemble des documents techniques (schéma structurel, schéma d'implantation, liste des composants) nécessaires à la réalisation des cartes à circuits imprimés.]]></notes>
+            <task id="19" name="Matérielle" color="#9999ff" meeting="false" start="2023-01-27" duration="31" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Le matériel sera délivré par le professeur et vous en serez alors responsable.]]></notes>
+                <task id="40" name="Tests unitaires" color="#9999ff" meeting="false" start="2023-01-27" duration="31" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Prototypage à l'aide des cartes à micro-contrôleur.
+Se renseigner sur la valeur des alimentations, des tensions d'entrées et de sortie pour les signaux logiques, numériques et analogiques.]]></notes>
+                    <depend id="146" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="45" name="Saisie de schéma" color="#9999ff" meeting="false" start="2023-01-27" duration="31" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Sous Isis en choisisant les empreintes adéquates :
+- penser à indiquer le chemin des bibliotèques (dossier LIBRARY-SN1)
+- composants à choisir de préférence dans les bibliothèques SYM et MINI-PROJET-SC-LIB
+- empreintes à choisir de préférence dans les bibliothèques LPKF et MINI-PROJET-SC-PKG]]></notes>
+                    <depend id="146" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="146" name="Validation du schéma structurel" color="#6666ff" meeting="true" start="2023-03-27" duration="0" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[Votre schéma structurel devra être validé par le professeur avant d'effectuer le routage.]]></notes>
+                    <depend id="29" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="27" name="Logicielle" color="#ffcc00" meeting="false" start="2023-01-27" duration="31" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                <task id="137" name="Algorigramme" color="#ffcc00" meeting="false" start="2023-01-27" duration="31" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" webLink="https%3A%2F%2Fwww.lucidchart.com%2Fpages%2F" expand="true">
+                    <notes><![CDATA[Sur une seule page :
+- struture globale du programme
+- description des grandes fonctions logicielles réalisées
+Outils intéressant poour faire des algorigrammes : Lucid Chart (voir le lien Internet en bas à gauche).]]></notes>
+                    <depend id="29" type="2" difference="0" hardness="Strong"/>
+                </task>
+                <task id="140" name="Programmation" color="#ffcc00" meeting="false" start="2023-01-27" duration="31" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                    <notes><![CDATA[La programmation se fera dans l'IDE Arduino.]]></notes>
+                    <depend id="29" type="2" difference="0" hardness="Strong"/>
+                </task>
+            </task>
+            <task id="29" name="Revue de projet" color="#ff0099" meeting="true" start="2023-03-27" duration="0" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Attendus :
+- fichier power-point
+- durée : 15 min de présentation (5 min en équipe, 10 min individuel)
+- questionnement : 10 min
+- points abordés :
+En équipe (max 5 min) :
+   # présentation du besoin et du contexte   
+   # fonctionnalités attendues
+   # exigences à remplir 
+   # répartition et planification des tâches (bdd et Gantt)  
+Individuel (max 10 min) :
+   # rappel de la partie traitée
+   # solutions envisagées (bdd et ibd)  
+   # tests unitaires menés
+   # schéma structurel et explication des structures retenues
+   # caractéristiques des signaux (flux)
+   # algorigramme si partie logicielle
+
+]]></notes>
+                <depend id="57" type="2" difference="0" hardness="Strong"/>
+                <depend id="59" type="2" difference="0" hardness="Strong"/>
+            </task>
+        </task>
+        <task id="57" name="Réalisation" color="#000000" meeting="false" start="2023-03-27" duration="30" complete="0" thirdDate="2021-11-22" thirdDate-constraint="0" expand="true">
+            <notes><![CDATA[Ensemble des tâches qui visent à obtenir une carte à circuits imprimés répondant au cahier des charges et intégrable en boîtier.]]></notes>
+            <task id="59" name="PCB" color="#999900" meeting="false" start="2023-03-27" duration="10" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Le routage de la carte se fera sous Ares.
+Attention il faudra respecter la procédure indiquée sur le site du mini-projet et certains composants devront être placés de manière précise : vous utiliserez pour cela des modéles de carte Ares.]]></notes>
+                <depend id="65" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="65" name="Implantation" color="#999900" meeting="false" start="2023-04-11" duration="9" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[L'implantation et le soudage des composants se feront avec le schéma d'implantation.
+Faire attention aux composants polarisés (condensateurs, diodes, led, transistors) qui doivent être placés en respectant le brochage.]]></notes>
+                <depend id="107" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="107" name="Contrôle qualité" color="#999900" meeting="false" start="2023-05-10" duration="7" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Avant toute alimentation de la carte, faire des mesures à l'ohmmètre :
+- d'isolement
+- de continuité
+- de distribution correcte des alimentations (Vcc et GND)]]></notes>
+                <depend id="116" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="116" name="Intégration" color="#999900" meeting="false" start="2023-05-19" duration="4" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Le plus grand soin devra être apporté à la mise en boîtier.
+Dans certains cas la face avant devra être percée ou bien il faudra imprimer une feuille adhésive pour repérage des composants de face avant (leds, bp, potars, etc).]]></notes>
+                <depend id="122" type="2" difference="0" hardness="Strong"/>
+            </task>
+            <task id="122" name="Recette" color="#cc0000" meeting="true" start="2023-05-25" duration="0" complete="0" thirdDate="2022-02-28" thirdDate-constraint="0" expand="true">
+                <notes><![CDATA[Dans la mesure du possible la recette se fera en présence du client à savoir M Damien CARDELLI, sapeur-sauveteur à l'UIISC7 de Brignoles.]]></notes>
+            </task>
+        </task>
+    </tasks>
+    <resources>
+        <resource id="0" name="Bryan" function="1" contacts="" phone=""/>
+        <resource id="1" name="Dylan" function="1" contacts="" phone=""/>
+        <resource id="2" name="Loïc" function="1" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="3" resource-id="0" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="0" resource-id="0" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="140" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="137" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="122" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="0" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="0" resource-id="1" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="40" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="65" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="116" resource-id="1" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="29" resource-id="1" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="3" resource-id="2" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="0" resource-id="2" function="1" responsible="false" load="50.0"/>
+        <allocation task-id="65" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="107" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="13" resource-id="2" function="1" responsible="false" load="100.0"/>
+        <allocation task-id="45" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="59" resource-id="2" function="1" responsible="true" load="100.0"/>
+        <allocation task-id="29" resource-id="2" function="1" responsible="false" load="100.0"/>
+    </allocations>
+    <vacations>
+        <vacation start="2022-02-05" end="2022-02-21" resourceid="0"/>
+        <vacation start="2022-04-09" end="2022-04-25" resourceid="0"/>
+        <vacation start="2022-02-05" end="2022-02-21" resourceid="1"/>
+        <vacation start="2022-04-09" end="2022-04-25" resourceid="1"/>
+        <vacation start="2022-02-05" end="2022-02-21" resourceid="2"/>
+        <vacation start="2022-04-09" end="2022-04-25" resourceid="2"/>
+    </vacations>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles roleset-name="SoftwareDevelopment"/>
+    <roles>
+        <role id="1" name="Technicien"/>
+        <role id="2" name=""/>
+    </roles>
+</project>
