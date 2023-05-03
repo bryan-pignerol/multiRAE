@@ -32,9 +32,8 @@ void refreshVariables() {
 
 
 // BUZZER FUNC
-void buzz(float freq) {
-  tone(BUZZER, 500, 500);
-  delay((1/freq)*1000);
+void buzz(float delayBuzz) {
+  tone(BUZZER, 500, delayBuzz);
 }
 
 // XBEE FUNC

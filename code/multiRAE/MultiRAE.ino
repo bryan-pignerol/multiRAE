@@ -111,5 +111,5 @@ void loop() {
   refreshVariables();
   
   // BUZZER
-  buzz(0.5);
+  buzz(500.0);
 }
